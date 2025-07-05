@@ -1,21 +1,15 @@
 {
-  "name": "TinyLlama",
-  "version": "1.1b-chat-v1.0",
-  "description": "TinyLlama 1.1B Chat model for llama.cpp.",
+  "id": "tinyllama",
+  "name": "TinyLlama 1.1B Chat",
+  "description": "Lightweight 1.1B parameter model optimized for chat tasks.",
+  "download_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+  "filename": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+  "quantization": "Q4_K_M",
   "framework": "llama.cpp",
-  "entry_point": "main.py",
+  "tokenizer": "hf_tokenizer",
   "license": "Apache-2.0",
-  "author": "TinyLlama Team",
-  "tags": ["llama", "tinyllama", "chat", "open-source"],
-  "weights": [
-    {
-      "name": "Q4_K_M",
-      "url": "https://huggingface.co/cmp-nct/tiny-llama/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
-      "size": "406MB"
-    }
-  ],
-  "config": {
-    "context_size": 2048,
-    "quantization": "Q4_K_M"
-  }
+  "author": "TinyLlama Project",
+  "source": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "size_mb": 550,
+  "entry_command": "./run-model.sh"
 }

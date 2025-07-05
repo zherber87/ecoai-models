@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TinyLlama",
+    "repo": "https://github.com/ecoai-models/tinyllama",
+    "description": "Lightweight LLM for edge devices",
+    "author": "EcoAI Team",
+    "price": 0,
+    "tags": ["llama.cpp", "tiny", "open-source"]
+  },
+  {
+    "name": "DeepSeek-R1",
+    "repo": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "description": "Powerful research-grade model",
+    "author": "DeepSeek",
+    "price": 5,
+    "tags": ["transformer", "research"]
+  }
+]

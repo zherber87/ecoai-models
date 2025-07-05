@@ -1,18 +1,15 @@
 [
   {
-    "name": "TinyLlama",
+    "id": "tinyllama",
+    "name": "TinyLlama 1.1B Chat",
+    "description": "Lightweight chat model. ~500MB gguf file.",
     "repo": "https://github.com/ecoai-models/tinyllama",
-    "description": "Lightweight LLM for edge devices",
-    "author": "EcoAI Team",
-    "price": 0,
-    "tags": ["llama.cpp", "tiny", "open-source"]
+    "gguf_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"
   },
   {
-    "name": "DeepSeek-R1",
-    "repo": "https://github.com/deepseek-ai/DeepSeek-R1",
-    "description": "Powerful research-grade model",
-    "author": "DeepSeek",
-    "price": 5,
-    "tags": ["transformer", "research"]
+    "id": "deepseek",
+    "name": "DeepSeek R1",
+    "description": "A multilingual RAG-ready research model.",
+    "repo": "https://github.com/deepseek-ai/DeepSeek-R1.git"
   }
 ]
